@@ -1,5 +1,5 @@
-require "to_wkt/version"
-require "to_wkt/adapter"
+require "to_wkt_/version"
+require "to_wkt_/adapter"
 
 module ToWkt
   def to_wkt(type)

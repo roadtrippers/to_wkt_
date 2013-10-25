@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'to_wkt/version'
+require 'to_wkt_/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "to_wkt_"
   spec.version       = ToWkt::VERSION
   spec.authors       = ["Steven Dunlap"]
   spec.email         = ["steven@roadtrippers.com"]
-  spec.description   = %q{Adds to_wkt_TYPE method to arrays}
-  spec.summary       = %q{Convert an array to a POINT, LINESTRING, POLYGON, etc. with methods such as #to_wkt_point}
-  spec.homepage      = "http://github.com/roadtrippers/to_wkt"
+  spec.description   = %q{Quickly and easily convert arrays to [Well-Known Text (WKT)] format.}
+  spec.summary       = File.open('README.md').read  
+  spec.homepage      = "http://github.com/roadtrippers/to_wkt_"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

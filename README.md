@@ -1,4 +1,4 @@
-# ToWkt
+# to_wkt_ 
 
 Quickly and easily convert arrays to [Well-Known Text (WKT)] format.  Which are
 commonly used in GIS Databases such as [PostGIS].
