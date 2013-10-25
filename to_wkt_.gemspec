@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = ToWkt::VERSION
   spec.authors       = ["Steven Dunlap"]
   spec.email         = ["steven@roadtrippers.com"]
-  spec.description   = %q{Quickly and easily convert arrays to [Well-Known Text (WKT)] format.}
+  spec.description   = %q{Painlessly convert arrays to Well-Known Text (WKT) format.}
   spec.summary       = File.open('README.md').read  
   spec.homepage      = "http://github.com/roadtrippers/to_wkt_"
   spec.license       = "MIT"
