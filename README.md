@@ -77,6 +77,35 @@ ToWkt automatically exposes the following methods on any instance of `Array`:
 
 ## Contributing
 
+### ToDos
+
+WKT specs contain 18 different geometries; right now only 6 are implemented in **to_wkt_**.
+
+- Implemented
+    - Point
+    - LineString
+    - Polygon
+    - MultiPoint
+    - MultiLineString
+    - MultiPolygon
+- **Not Implemented**
+    - Geometry
+    - Triangle
+    - CircularString
+    - Curve
+    - MultiCurve
+    - CompoundCurve
+    - CurvePolygon
+    - Surface
+    - MultiSurface
+    - PolyhedralSurface
+    - TIN
+    - GeometryCollection
+
+Some of these will be easier to implement than others.
+
+### How to Contribute
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
